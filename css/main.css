@@ -2074,6 +2074,31 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   clear: both;
 }
 
+.portfolio-btns {
+  margin-bottom: 20px;
+}
+
+.portfolio-btn {
+  display: inline;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 13px;
+  font-size: 16px;
+  border: 2px solid white;
+  font-family: "montserrat-bold", sans-serif;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+
+.portfolio-btns a {
+  color: white;
+  cursor: pointer;
+}
+
+.portfolio-btn:hover {
+  background-color: white;
+  color: #000;
+}
+
 /* ------------------------------------------------------------------- 
  * masonry entries - (_layout.css) 
  * ------------------------------------------------------------------- */
@@ -2595,6 +2620,16 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin-bottom: 4.2rem;
 }
 
+.fiverr-logo {
+  width: 150px;
+  margin-top: -50px;
+  margin-left: -10px;
+}
+
+.con-fiverr a {
+  cursor: pointer;
+}
+
 /* contact form */
 #contact form {
   margin-top: 0;
@@ -2935,7 +2970,7 @@ footer h4.h05::after {
  * --------------------------------- */
 .footer-bottom {
   /* margin-top: 3rem; */
-  padding: 3rem 0;
+  padding-top: 3rem;
   text-align: center;
   font-family: "montserrat-regular", sans-serif;
   font-size: 1.4rem;

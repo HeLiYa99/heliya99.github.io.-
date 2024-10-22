@@ -1838,7 +1838,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   width: 300px;
   border-radius: 150px;
   background-color: #000;
-  background-image: url(../images/propic.jpg);
+  background-image: url(../images/propic2.jpg);
   background-size: cover;
   margin: auto;
   margin-top: 6rem;
@@ -1917,7 +1917,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 #services {
   background-color: #19191b;
-  background-image: url(../images/services-bg.jpg);
+  background-image: url(../images/bg123.png);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -1934,7 +1934,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(5, 5, 5, 0.7);
+  background-color: rgba(5, 5, 5, 0.863);
 }
 #services .gradient-overlay {
   position: absolute;
@@ -2326,7 +2326,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *  14. testimonials - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
-#testimonials {
+/* #testimonials {
   background: #FFFFFF;
   padding: 12rem 0 7.8rem;
   text-align: center;
@@ -2403,10 +2403,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   text-transform: none;
   color: rgba(0, 0, 0, 0.5);
   margin-top: .3rem;
-}
+} */
 
 /* control nav */
-#testimonials .flex-control-nav {
+/* #testimonials .flex-control-nav {
   width: 100%;
   text-align: center;
   display: block;
@@ -2435,13 +2435,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #testimonials .flex-control-paging li a.flex-active {
   background-color: #000000;
-}
+} */
 
 /* ------------------------------------------------------------------- 
  * responsive:
  * testimonials
  * ------------------------------------------------------------------- */
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (max-width: 1024px) {
   #testimonial-slider p {
     font-size: 2.8rem;
   }
@@ -2487,7 +2487,159 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   #testimonial-slider p {
     font-size: 2rem;
   }
+} */
+
+
+
+/* Testimonials New */
+
+.testimonials {
+  background: #FFFFFF;
+  padding: 12rem 8rem 0 7.8rem;
+  text-align: center;
 }
+
+.testimonials h2 {
+  font-family: "montserrat-bold", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.667;
+  color: #07617d;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  position: relative;
+  margin-bottom: 4.2rem;
+}
+
+.intro-text {
+  font-size: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+}
+
+.testimonials-container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.testimonial {
+  background-color: #ffffff;
+  border: 2px solid #2285ff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: left;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.stars {
+  color: gold;
+  margin-bottom: 10px;
+}
+
+.testimonial p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.client-info {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+.client-info img {
+  width: 40px !important;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.client-info p {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.client-info span {
+  font-size: 1rem;
+  margin-bottom: 0;
+  color: #7e7e7e;
+}
+
+
+/* Brand section */
+
+.client-brands {
+  padding: 8rem 0 7.8rem;
+  text-align: center;
+  background-color: #111111;
+  background-image: url(../images/contact-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+.client-brands .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .75;
+  background-color: #000000;
+}
+
+.brand-heading {
+  font-family: "librebaskerville-bold", serif;
+  font-size: 2.5rem;
+  line-height: 1.375;
+  color: white;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 4.2rem;
+  text-align: center;
+}
+
+.client-brand-container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+.client-brand {
+  padding: 20px;
+  max-width: 300px;
+  text-align: left;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.client-brand img {
+  width: auto !important;
+  height: 100px;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .testimonials {
+    padding: 5rem 0rem 2rem;
+  }
+
+  .brand-heading {
+    font-size: 1.5rem;
+  }
+}
+
 
 
 /* ===================================================================
@@ -2577,7 +2729,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  padding: 12rem 0 12rem;
+  padding: 5rem 0 12rem;
   position: relative;
 }
 #contact .overlay {

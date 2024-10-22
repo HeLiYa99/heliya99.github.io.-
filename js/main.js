@@ -110,30 +110,7 @@ var typed = new Typed('.multitext', {
 	* ------------------------------------------------------ */
 	var ssOwlCarousel = function() {
 
-		$(".owl-carousel").owlCarousel({		
-	      nav: false,
-			loop: true,
-	    	margin: 50,
-	    	responsiveClass:true,
-	    	responsive: {
-	         0:{
-	            items:2,
-	            margin: 20
-	         },
-	         400:{
-	            items:3,
-	            margin: 30
-	         },
-	         600:{
-	            items:4,
-	            margin: 40
-	         },
-	         1000:{
-	            items:6            
-	         }
-	    	}
-		});
-
+		
 	};
   	
 
@@ -430,3 +407,47 @@ var typed = new Typed('.multitext', {
  
 
 })(jQuery);
+
+
+
+$('.carousel-one').owlCarousel({
+	loop: true,
+	margin: 10,
+	nav: false,
+	dots: false,
+	autoplay: true,
+	autoplayTimeout: 5000,
+	autoplayHoverPause: true,
+	responsive: {
+		0: {
+			items: 1
+		},
+		600: {
+			items: 2
+		},
+		1000: {
+			items: 3
+		}
+	}
+});
+
+$('.carousel-two').owlCarousel({
+	loop: true,
+	margin: 10,
+	nav: false,
+	dots: false,
+	autoplay: true,
+	autoplayTimeout: 1500,
+	autoplayHoverPause: true,
+	responsive: {
+		0: {
+			items: 2
+		},
+		600: {
+			items: 3
+		},
+		1000: {
+			items: 5
+		}
+	}
+});

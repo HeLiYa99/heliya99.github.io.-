@@ -416,7 +416,7 @@ $('.carousel-one').owlCarousel({
 	nav: false,
 	dots: false,
 	autoplay: true,
-	autoplayTimeout: 5000,
+	autoplayTimeout: 2000,
 	autoplayHoverPause: true,
 	responsive: {
 		0: {
@@ -437,7 +437,7 @@ $('.carousel-two').owlCarousel({
 	nav: false,
 	dots: false,
 	autoplay: true,
-	autoplayTimeout: 1500,
+	autoplayTimeout: 2000,
 	autoplayHoverPause: true,
 	responsive: {
 		0: {

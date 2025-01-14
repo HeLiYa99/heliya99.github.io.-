@@ -1838,8 +1838,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   width: 300px;
   border-radius: 150px;
   background-color: #000;
-  background-image: url(../images/propic2.jpg);
+  background-image: url(../images/mn3.jpg);
   background-size: cover;
+  background-position: center;
   margin: auto;
   margin-top: 6rem;
 }

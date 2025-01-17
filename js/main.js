@@ -41,7 +41,7 @@ var typed = new Typed('.multitext', {
 	    	$("#loader").fadeOut("slow", function(){
 
 	        // will fade out the whole DIV that covers the website.
-	        $("#preloader").delay(300).fadeOut("slow");
+	        $("#preloader").delay(0).fadeOut("slow"); //300
 
 	      }); 
 	  	});

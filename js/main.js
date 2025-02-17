@@ -1,7 +1,7 @@
 //typed
 
 var typed = new Typed('.multitext', {
-	strings: ['Video Editor', 'Color Grader', 'VFX Artist', 'DOP','Youtuber'],
+	strings: ['Video Editor', 'Color Grader', 'VFX Artist', 'Cinematographer ','Youtuber'],
 	loop: true,
 	typeSpeed: 100,
 	backSpeed: 80,

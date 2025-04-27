@@ -1,7 +1,7 @@
 //typed
 
 var typed = new Typed('.multitext', {
-	strings: ['Video Editor', 'Color Grader', 'VFX Artist', 'DOP','Youtuber'],
+	strings: ['Video Editor', 'Color Grader', 'VFX Artist', 'Cinematographer ','Youtuber'],
 	loop: true,
 	typeSpeed: 100,
 	backSpeed: 80,
@@ -41,7 +41,7 @@ var typed = new Typed('.multitext', {
 	    	$("#loader").fadeOut("slow", function(){
 
 	        // will fade out the whole DIV that covers the website.
-	        $("#preloader").delay(300).fadeOut("slow");
+	        $("#preloader").delay(0).fadeOut("slow"); //300
 
 	      }); 
 	  	});
@@ -416,7 +416,7 @@ $('.carousel-one').owlCarousel({
 	nav: false,
 	dots: false,
 	autoplay: true,
-	autoplayTimeout: 2000,
+	autoplayTimeout: 1000,
 	autoplayHoverPause: true,
 	responsive: {
 		0: {

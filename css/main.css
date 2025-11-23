@@ -2082,8 +2082,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 .portfolio-btn {
   display: inline;
   background-color: rgba(255, 255, 255, 0);
-  padding: 13px;
-  font-size: 16px;
+  padding: 20px;
+  font-size: 20px;
   border: 2px solid white;
   font-family: "montserrat-bold", sans-serif;
   margin: 0 10px;

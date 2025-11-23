@@ -1156,7 +1156,6 @@ input::-moz-focus-inner {
   line-height: 1.833;
 }
 .section-intro.with-bottom-sep {
-  padding-bottom: 4.2rem;
   position: relative;
 }
 .section-intro.with-bottom-sep::after {
@@ -2081,8 +2080,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 
 .portfolio-btn {
   display: inline;
-  background-color: rgba(255, 255, 255, 0);
-  padding: 20px;
+  background-color: white;
+  padding: 10px 20px;
   font-size: 20px;
   border: 2px solid white;
   font-family: "montserrat-bold", sans-serif;
@@ -2091,13 +2090,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 .portfolio-btns a {
-  color: white;
+  color: black;
   cursor: pointer;
 }
 
 .portfolio-btn:hover {
-  background-color: white;
-  color: #000;
+  background-color: black;
+  color: white;
 }
 
 /* ------------------------------------------------------------------- 
@@ -3241,6 +3240,24 @@ footer h4.h05::after {
   justify-content: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+.starleap-card {
+  width: 800px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.starleap-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
 .pjt-p {
   color: white;
   padding: 10px;
@@ -3254,14 +3271,26 @@ footer h4.h05::after {
 .music-video {
   background-image: url('../images/rawatavi_as.jpg');
 }
+.Starleap {
+  background-image: url('../images/portfolio/StarleapGloble.jpg');
+}
 @media (max-width: 600px) {
   .pjt-con {
       flex-direction: column;
       align-items: center;
   }
 }
+@media (max-width: 800px) {
+  .starleap-card {
+      width: 500px;
+  }
+}
 
 
 .pjt-card:hover {
   opacity: 0.5;
+}
+
+.starleap-div:hover {
+  opacity: 0.8;
 }

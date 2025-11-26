@@ -2079,18 +2079,18 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 .portfolio-btn {
-  display: inline;
-  background-color: white;
-  padding: 10px 20px;
+  display: inline-block;
+  background-color: #2285ff;
+  padding: 20px 40px;
   font-size: 20px;
-  border: 2px solid white;
+  border: 2px solid #2285ff;
   font-family: "montserrat-bold", sans-serif;
   margin: 0 10px;
   border-radius: 5px;
 }
 
 .portfolio-btns a {
-  color: black;
+  color: white;
   cursor: pointer;
 }
 
